@@ -1,4 +1,4 @@
-## Mazzuma Node
+## Mazzuma 
 
 A small wrapper around mazzuma api
 
