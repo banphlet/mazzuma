@@ -1,6 +1,6 @@
 {
   "name": "mazzuma-node",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Small wrapper around mazzuma api",
   "main": "dist/index.js",
   "scripts": {
@@ -8,9 +8,8 @@
     "build": "tsc -p . ",
     "test": "mocha -r ts-node/register \"test/**/**/*.test.ts\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["mazzuma", "node", "axios", "node-wrapper"],
+  "license": "MIT",
   "devDependencies": {
     "@types/faker": "4.1.11",
     "@types/mocha": "7.0.2",
@@ -24,5 +23,11 @@
   "dependencies": {
     "axios": "0.19.2",
     "chai-as-promised": "7.1.1"
-  }
+  },
+  "private": false,
+  "author": "Nana Kwame Zoe<banphlet4@gmail.com> (https://github.com/banphlet)",
+  "bugs": {
+    "url": "https://github.com/banphlet/mazzuma-node/issues"
+  },
+  "homepage": "https://github.com/banphlet/mazzuma-node"
 }
