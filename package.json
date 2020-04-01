@@ -1,7 +1,7 @@
 {
   "name": "mazzuma-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small wrapper around mazzuma api",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "npm run build",
