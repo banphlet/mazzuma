@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc -p . ",
     "test": "mocha -r ts-node/register \"test/**/**/*.test.ts\""
   },
