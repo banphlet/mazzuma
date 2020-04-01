@@ -1,5 +1,5 @@
 {
-  "name": "mazzuma-node",
+  "name": "mazzuma",
   "version": "0.0.1",
   "description": "Small wrapper around mazzuma api",
   "main": "dist/index.js",
@@ -8,12 +8,7 @@
     "build": "tsc -p . ",
     "test": "mocha -r ts-node/register \"test/**/**/*.test.ts\""
   },
-  "keywords": [
-    "mazzuma",
-    "node",
-    "axios",
-    "node-wrapper"
-  ],
+  "keywords": ["mazzuma", "node", "axios", "node-wrapper"],
   "license": "MIT",
   "devDependencies": {
     "@types/faker": "4.1.11",
