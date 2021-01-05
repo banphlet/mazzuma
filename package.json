@@ -22,7 +22,7 @@
     "chai-as-promised": "7.1.1"
   },
   "dependencies": {
-    "axios": "0.19.2"
+    "axios": "0.21.1"
   },
   "private": false,
   "author": "Nana Kwame Zoe<banphlet4@gmail.com> (https://github.com/banphlet)",
